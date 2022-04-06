@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    position: fixed;
+    background-position: center;
+    filter: blur(2px);
+    background-image: url(bg2.jpg);
+    /* background-color: rgb(102, 102, 102); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header.judul {
+    color: white;
+    background-color: rgba(14, 14, 14, 0.9);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+}
+
+div.form1 {
+    color: white;
+    width: 50%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+div.form1 h2 {
+    font-size: 20px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+div.form1 p.keterangan {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: rgb(207, 207, 207);
+}
+
+input.totalHarta {
+    height: 30px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+input.anakpewaris {
+    width: 10%;
+    text-align: center;
+    height: 30px;
+    font-size: 25px;
+}
+
+select {
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+input.catat {
+    background-color: white;
+    padding: 5px;
+    width: 25%;
+    height: auto;
+    margin: 0 37%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+div.detailKeluargaPewaris {
+    color: white;
+    width: 50%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+input.hitung {
+    background-color: white;
+    padding: 5px;
+    width: 25%;
+    height: auto;
+    margin: 0 37%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* input[type=radio] {
+    height: ;
+} */
